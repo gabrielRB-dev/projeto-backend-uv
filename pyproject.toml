@@ -1,0 +1,13 @@
+# pyproject.toml
+
+[tool.ruff]
+# Define o tamanho máximo da linha
+line-length = 88
+
+[tool.ruff.lint]
+# Seleciona as regras de lint mais comuns (E, F, W, I)
+select = ["E", "F", "W", "I"]
+
+[tool.ruff.format]
+# Usa aspas duplas para strings
+quote-style = "double"
