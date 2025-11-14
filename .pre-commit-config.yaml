@@ -3,7 +3,7 @@
 repos:
 -   repo: https://github.com/astral-sh/ruff-pre-commit
     # Usando a versão mais recente que apareceu na sua instalação
-    rev: v0.4.8 
+    rev: v0.14.5 
     hooks:
         # Roda o linter e tenta corrigir automaticamente
         -   id: ruff-check
